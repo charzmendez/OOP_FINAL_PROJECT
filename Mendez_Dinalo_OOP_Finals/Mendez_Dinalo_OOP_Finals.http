@@ -1,0 +1,6 @@
+@Mendez_Dinalo_OOP_Finals_HostAddress = http://localhost:5044
+
+GET {{Mendez_Dinalo_OOP_Finals_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
