@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "Mendez_Dinalo_OOP_Finals.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "..\\Mendez_Dinalo.UI\\Mendez_Dinalo.UI.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

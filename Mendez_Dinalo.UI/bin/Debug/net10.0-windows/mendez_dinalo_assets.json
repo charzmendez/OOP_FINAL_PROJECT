@@ -1,0 +1,22 @@
+{
+  "WS-001": {
+    "$type": "workstation",
+    "Cpu": "MediaTek",
+    "IsCheckedOut": false,
+    "BorrowerId": null,
+    "IpAddress": "192.168.1.1",
+    "MacAddress": "AA:BB:CC:DD:EE:FF",
+    "AssetTag": "WS-001",
+    "Name": "Laptop - 001",
+    "PurchasePrice": 1500,
+    "Status": "Available"
+  },
+  "SL-001": {
+    "$type": "license",
+    "MonthsRemaining": 12,
+    "AssetTag": "SL-001",
+    "Name": "Microsoft Office",
+    "PurchasePrice": 0,
+    "Status": "Available"
+  }
+}

@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Mendez_Dinalo_OOP_Finals\Mendez_Dinalo_OOP_Finals.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="VIEWALLASSETFORM.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>VIEWALLASSETFORM.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="VIEWALLASSETFORM.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>VIEWALLASSETFORM.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+</Project>
